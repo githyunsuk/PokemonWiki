@@ -77,7 +77,7 @@ function PokemonWiki() {
               id: details.data.id,
               name: koreanName,
               image:
-                details.data.sprites.other["official-artwork"].front_default, 
+                details.data.sprites.front_default, 
               types: details.data.types,
             };
           })();
@@ -126,7 +126,7 @@ function PokemonWiki() {
           textAlign: "center",
         }}
       >
-        포켓몬 도감 testtest
+        포켓몬 도감
       </Typography>
 
       <Grid container spacing={3} justifyContent="center" alignItems="stretch">
